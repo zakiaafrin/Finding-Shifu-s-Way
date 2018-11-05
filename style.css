@@ -4,9 +4,6 @@ body {
     font-family: "Righteous", sans-serif;
     background-image: url("./img/background.jpg");
     background-size: cover;
-}
-
-.screen {
     display :flex;
     justify-content: center;
     flex-direction: column;
@@ -33,11 +30,13 @@ h1 {
     padding: 5px;
     border-radius: 25%;
     font-size: 18.5px;
-    font-weight: bold;
+    text-align: center;
+    margin-top: -94.5vh;
+    margin-left: 76.5vw;
+    margin-right: 10vw;
+    border: 2px solid white;
     outline: none;
     box-shadow: 5px 5px 10px #4a0102d8;
-    margin-top: 3vh;
-    margin-left: 1vw;
 }
 
 #start:hover {
@@ -54,7 +53,6 @@ h1 {
     outline: none;
     box-shadow: 5px 5px 10px #4a0102d8;
     margin-top: 3vh;
-    margin-left: 1vw;
 }
 
 #anime:hover {
@@ -67,30 +65,14 @@ h1 {
 }
 
 #copoint {
-    margin-left: 167vh;
-    margin-right: 34vh;
+    margin-left: 172vh;
+    margin-right: 30vh;
     font-size: 18px;
     font-weight: bold;
     text-align: center;
     color: white;
     background-image: url("./img/wall.jpg");
     box-shadow: 5px 5px 10px #4a0102d8;
-}
-.coordinates {
-    margin-top: -94.5vh;
-    margin-left: 76.5vw;
-    margin-right: 13.5vw;
-    border: 2px solid white;
-    background-color: #8e0000;
-    text-align: center;
-    color: white;
-    padding: 5px;
-    border-radius: 25%;
-    box-shadow: 5px 5px 10px #4a0102d8;
-}
-
-.coordinates:hover {
-    background: conic-gradient(red, yellow, lime, aqua, blue, magenta, red);
 }
 
 tr {
@@ -101,7 +83,8 @@ tr {
 td {
     width: 64px;
     padding-top: 10px;
-    color: #fbfcfd00;
+    font-size: 18px;
+    text-align: center;
 }
 
 .heading {
@@ -111,6 +94,7 @@ td {
 
 td:hover {   
     background-image: url('./img/hima.png');    
+    color: #fbfcfd00;
     background-size: 58px;
     background-repeat: no-repeat;
     background-position: center;

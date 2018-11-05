@@ -33,9 +33,11 @@ function createTable() {
                 var newCell = document.createElement("td");
                 if (cell == 1 || cell == S || cell == E) {
                     newCell.style.backgroundColor = '#00FA9A';
+                    newCell.style.color = 'black';
                 }
                 if (cell == 0) {
                     newCell.style.background = "url('./img/wall.jpg'), 58px 55px, no-repeat, center center";
+                    newCell.style.color = 'white';
                 }
                 newCell.textContent = cell;
                 newRow.appendChild(newCell);
@@ -128,6 +130,7 @@ function showImage() {
                 var newCell = document.createElement("td");
                 if (cell == 1 || cell == S || cell == E) {
                     newCell.style.backgroundColor = '#00FA9A';
+                    newCell.style.color = '#fbfcfd00';
                     newCell.style.backgroundImage = "url('./img/hima.png')";
                     newCell.style.backgroundSize = "58px 58px";
                     newCell.style.backgroundRepeat = "no-repeat";
@@ -135,6 +138,7 @@ function showImage() {
                 }
                 if (cell == 0) {
                     newCell.style.background = "url('./img/wall.jpg'), 58px 55px, no-repeat, center center";
+                    newCell.style.color = '#fbfcfd00';
                 }
                 newCell.textContent = cell;
                 newRow.appendChild(newCell);
